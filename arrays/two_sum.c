@@ -1,6 +1,11 @@
 /*
+ * Problem: Two Sum (LeetCode #1)
+ * Approach: One-pass HashMap
+ * Time: O(n) | Space: O(n)
+ * Pattern: HashMap - store complement and look it up as go
+ * Brute force would be: O(n²) nested loops checking all pairs
  * Purpose: return indices of the two numbers such that they add up to "target"
- * assuming caller calls free()
+   assuming caller calls free()
  */
 #define SIZE 100
 

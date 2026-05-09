@@ -1,7 +1,13 @@
 /*
-    Purpose: Maximize profit by  by choosing a single day to buy one stock and
-    choosing a different day in the future to sell that stock.
-    Note: Must buy before selling
+ * Problem: Best Time to Buy and Sell Stock (LeetCode#121)
+ * Approach: Greedy - track running minimum and max profit
+ * Time: O(n) | Space: O(1)
+ * Pattern: Greedy / Sliding Window (two pointers variant)
+ *           left pointer = best buy day, right pointer scans ahead
+ * Brute force would be: O(n²) checking all buy/sell pairs
+ * Purpose: Maximize profit by  by choosing a single day to buy one stock and
+            choosing a different day in the future to sell that stock.
+ * Note: Must buy before selling
 */
 int maxProfit(int *prices, int pricesSize)
 {
