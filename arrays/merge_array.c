@@ -2,6 +2,7 @@
  * LeetCode #88 - Merge Sorted Array
  * Pattern: Two Pointers (Back-fill)
  * Time: O(m + n) | Space: O(1)
+ * Purpose Merge two sorted arrays into one sorted array
  */
 void merge(int *nums1, int nums1Size, int m, int *nums2, int nums2Size, int n)
 {
